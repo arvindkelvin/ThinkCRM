@@ -42,5 +42,5 @@
  */
 
     print("<html><body>");
-    print("Down for maintenance.");
+    print("ThinkCustomer is down for maintenance. It will be back up shortly!");
     print("</body></html>");
