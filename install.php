@@ -62,7 +62,7 @@ if (isset($_POST['smtp_tab_selected'])) {
  * If less than minimum we refuse to install.
  */
 if (check_php_version() === -1) {
-    $msg = 'The recommended PHP version to install SuiteCRM is ';
+    $msg = 'The recommended PHP version to install ThinkCRM is ';
     $msg .= constant('SUITECRM_PHP_REC_VERSION').'<br />';
     $msg .= 'Although the minimum PHP version required is ';
     $msg .= constant('SUITECRM_PHP_MIN_VERSION').', ';
@@ -208,7 +208,7 @@ EOQ;
         die();
     }
     LoggerManager::getLogger()->fatal('Install file not found: ' . $the_file);
-    die('SuiteCRM Installation has been Disabled');
+    die('ThinkCRM Installation has been Disabled');
 }
 
 
